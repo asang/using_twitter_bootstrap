@@ -1,11 +1,11 @@
 # Using Twitter Bootstrap
 
-This article taks about using [Twitter bootstrap][bootstrap] to create
+This project demonstrates using [Twitter bootstrap][bootstrap] to create
 responsive, professional and responsive user interface with as little effort as
-possible Railscast [episode
+possible. Railscasts [episode
 328](http://railscasts.com/episodes/328-twitter-bootstrap-basics) and [episode
 329](http://railscasts.com/episodes/329-more-on-twitter-bootstrap) cover the
-basics in great detail. 
+basics in great detail and this project is based on that content.
 
 ## Basics ##
 
