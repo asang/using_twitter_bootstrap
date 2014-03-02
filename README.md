@@ -31,10 +31,21 @@ can be prepended to the command-line
 
 ## Using Simple Form ##
 
-Using `simple_form` gem, we can improve the user interface and make the
+Using [<code>simple_form</code>][simple form] gem, we can improve the user interface and make the
 application more usable. `product` model in this case has been enhanced to take
 advantage of this.
+
+## Converting this file to ... ##
+
+[Pandoc][pandoc] can be used to convert this file and practically any format
+for your choice
+
+```
+pandoc README.md -o README.html
+```
 
 [bootstrap]: http://getbootstrap.com/css/#less
 [episode 328]: http://railscasts.com/episodes/328-twitter-bootstrap-basics
 [episode 329]: http://railscasts.com/episodes/329-more-on-twitter-bootstrap
+[simple form]: https://github.com/plataformatec/simple_form
+[pandoc]: http://johnmacfarlane.net/pandoc/index.html
