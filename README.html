@@ -1,0 +1,10 @@
+<h1 id="using-twitter-bootstrap">Using Twitter Bootstrap</h1>
+<p>This article taks about using <a href="http://getbootstrap.com/css/#less">Twitter bootstrap</a> to create responsive, professional and responsive user interface with as little effort as possible Railscast <a href="http://railscasts.com/episodes/328-twitter-bootstrap-basics">episode 328</a> and <a href="http://railscasts.com/episodes/329-more-on-twitter-bootstrap">episode 329</a> cover the basics in great detail.</p>
+<h2 id="basics">Basics</h2>
+<pre><code>rails new store
+rails g scaffold product name price:decimal --skip-stylesheets
+rake db:migrate
+rails g bootstrap:install
+rails g bootstrap:themed products -f</code></pre>
+<h2 id="using-simple-form">Using Simple Form</h2>
+<p>Using <code>simple_form</code> gem, we can improve the user interface and make the application more usable. <code>product</code> model in this case has been enhanced to take advantage of this.</p>
